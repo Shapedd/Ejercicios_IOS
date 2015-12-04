@@ -14,6 +14,8 @@
     int mode;
     NSString *valueString;
     IBOutlet UILabel *label;
+    IBOutlet UILabel *lblconsola;
+
     BOOL lastButtonWasMode;
     
     IBOutlet UILabel *loglabel;

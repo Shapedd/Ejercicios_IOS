@@ -33,22 +33,39 @@
     loglabel.text = @"Hemos pulsado: C";
     valueString = @"";
     label.text = @"0";
+    lblconsola.text = @"";
     total = 0;
 }
+
+
+
 -(IBAction)tappedNumber:(UIButton*)btn
 {
     int num = btn.tag;
     loglabel.text = [NSString stringWithFormat: @"Hemos pulsado: %i",num];
+
     //Si hemos pulsado 0 y seguimos con el total a cero no hacemos nada
     if (num == 0 && total == 0)
     {
         return;
     }
-    
+
+
     if (lastButtonWasMode) {
         lastButtonWasMode = NO;
+        lblconsola.text = valueString; //registramos el valor en la consola
+        if (mode == 1)
+            {
+            lblconsola.text = [lblconsola.text stringByAppendingString:@" + "];
+            }
+        if (mode == -1)
+        {
+            lblconsola.text = [lblconsola.text stringByAppendingString:@" - "];
+        }
         valueString = @"";
     }
+    
+    
     NSString *numAsString = [NSString stringWithFormat: @"%i",num];
     valueString = [valueString stringByAppendingString:numAsString];
     label.text = valueString;
@@ -73,6 +90,8 @@
 -(IBAction)tappedEquals:(id)sender
 {
     loglabel.text = @"Hemos pulsado: =";
+    lblconsola.text = [lblconsola.text stringByAppendingString:valueString]; //registramos el valor en la consola
+    lblconsola.text = [lblconsola.text stringByAppendingString:@" = "];
     if (mode == 0) {
         return;
     }
@@ -93,6 +112,8 @@
         }
     label.text = [NSString stringWithFormat:@"%i",total];
     valueString = label.text;
+    lblconsola.text = [lblconsola.text stringByAppendingString:[NSString stringWithFormat:@"%i",total]];
+
     
 }
 

@@ -16,6 +16,7 @@
 		0774E2DA1BFCF4B3004DD34D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0774E2D81BFCF4B3004DD34D /* LaunchScreen.storyboard */; };
 		0774E2E51BFCF4B3004DD34D /* Calculator_exerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774E2E41BFCF4B3004DD34D /* Calculator_exerciseTests.m */; };
 		0774E2F01BFCF4B3004DD34D /* Calculator_exerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774E2EF1BFCF4B3004DD34D /* Calculator_exerciseUITests.m */; };
+		07C6D2911C0640290070D53A /* Calculatorrr.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C6D2901C0640290070D53A /* Calculatorrr.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0774E2EB1BFCF4B3004DD34D /* Calculator_exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator_exerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0774E2EF1BFCF4B3004DD34D /* Calculator_exerciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator_exerciseUITests.m; sourceTree = "<group>"; };
 		0774E2F11BFCF4B3004DD34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C6D2901C0640290070D53A /* Calculatorrr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Calculatorrr.png; path = "../../../../../Volumes/Macintosh HD/Downloads/Calculatorrr.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				0774E2E31BFCF4B3004DD34D /* Calculator_exerciseTests */,
 				0774E2EE1BFCF4B3004DD34D /* Calculator_exerciseUITests */,
 				0774E2C51BFCF4B3004DD34D /* Products */,
+				07C6D2901C0640290070D53A /* Calculatorrr.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,6 +213,12 @@
 				TargetAttributes = {
 					0774E2C31BFCF4B3004DD34D = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = A5UWCAP627;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					0774E2DF1BFCF4B3004DD34D = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -247,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0774E2DA1BFCF4B3004DD34D /* LaunchScreen.storyboard in Resources */,
+				07C6D2911C0640290070D53A /* Calculatorrr.png in Resources */,
 				0774E2D71BFCF4B3004DD34D /* Assets.xcassets in Resources */,
 				0774E2D21BFCF4B3004DD34D /* Main.storyboard in Resources */,
 			);
@@ -415,11 +425,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculator_exercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Calculator-exercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -427,11 +440,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculator_exercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Calculator-exercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -466,6 +482,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Calculator-exerciseUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_TARGET_NAME = Calculator_exercise;
 				USES_XCTRUNNER = YES;
 			};
@@ -478,6 +495,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Calculator-exerciseUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_TARGET_NAME = Calculator_exercise;
 				USES_XCTRUNNER = YES;
 			};
@@ -502,6 +520,7 @@
 				0774E2F61BFCF4B3004DD34D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0774E2F71BFCF4B3004DD34D /* Build configuration list for PBXNativeTarget "Calculator_exerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +529,7 @@
 				0774E2F91BFCF4B3004DD34D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0774E2FA1BFCF4B3004DD34D /* Build configuration list for PBXNativeTarget "Calculator_exerciseUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +538,7 @@
 				0774E2FC1BFCF4B3004DD34D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

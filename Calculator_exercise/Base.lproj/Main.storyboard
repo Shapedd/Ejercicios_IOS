@@ -17,9 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fyL-K9-1i7">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fyL-K9-1i7">
                                 <rect key="frame" x="20" y="334" width="135" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="0">
@@ -30,6 +32,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="542" width="183" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedNumber:" destination="BYZ-38-t0r" eventType="touchDown" id="rcg-mA-AwY"/>
                                 </connections>
@@ -37,6 +42,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j0M-Zo-fJn">
                                 <rect key="frame" x="178" y="334" width="56" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583810000005" green="0.85589792269999998" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="C">
@@ -47,6 +54,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="197" y="542" width="90" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedClear:" destination="BYZ-38-t0r" eventType="touchDown" id="ldN-Fe-rgE"/>
                                 </connections>
@@ -54,6 +64,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P3C-Zk-zDG">
                                 <rect key="frame" x="255" y="259" width="56" height="131"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="=">
@@ -64,6 +76,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="290" y="438" width="90" height="194"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedEquals:" destination="BYZ-38-t0r" eventType="touchDown" id="g6w-jg-0i0"/>
                                 </connections>
@@ -71,6 +86,8 @@
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Te3-hi-WRD">
                                 <rect key="frame" x="20" y="259" width="56" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="1">
@@ -81,6 +98,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="440" width="90" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedNumber:" destination="BYZ-38-t0r" eventType="touchDown" id="MR4-TB-0jF"/>
                                 </connections>
@@ -88,6 +108,8 @@
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhr-cy-0FP">
                                 <rect key="frame" x="99" y="259" width="56" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583810000005" green="0.85589792269999998" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="2">
@@ -98,30 +120,18 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="440" width="90" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedNumber:" destination="BYZ-38-t0r" eventType="touchDown" id="6Pe-si-DX1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffl-Ev-q3f">
-                                <rect key="frame" x="178" y="259" width="56" height="56"/>
-                                <animations/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="3">
-                                            <attributes>
-                                                <font key="NSFont" size="28" name=".AppleSystemUIFont"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="tappedNumber:" destination="BYZ-38-t0r" eventType="touchDown" id="edc-yg-1ZX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T06-9o-fUU">
                                 <rect key="frame" x="20" y="184" width="56" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="4">
@@ -132,6 +142,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="341" width="90" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedNumber:" destination="BYZ-38-t0r" eventType="touchDown" id="UH8-1K-tOi"/>
                                 </connections>
@@ -139,6 +152,8 @@
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1mq-Bc-83k">
                                 <rect key="frame" x="99" y="184" width="56" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="5">
@@ -149,6 +164,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="341" width="90" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedNumber:" destination="BYZ-38-t0r" eventType="touchDown" id="NKC-GO-YWM"/>
                                 </connections>
@@ -156,6 +174,8 @@
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="anr-p0-30L">
                                 <rect key="frame" x="178" y="184" width="56" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="6">
@@ -166,6 +186,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="195" y="340" width="90" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedNumber:" destination="BYZ-38-t0r" eventType="touchDown" id="A1r-K1-NVZ"/>
                                 </connections>
@@ -173,6 +196,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yLc-ud-Sme">
                                 <rect key="frame" x="255" y="184" width="56" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="+">
@@ -183,6 +208,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="290" y="340" width="90" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedPlus:" destination="BYZ-38-t0r" eventType="touchDown" id="FKC-Z9-mPQ"/>
                                 </connections>
@@ -190,6 +218,8 @@
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ipp-8s-OKm">
                                 <rect key="frame" x="20" y="114" width="56" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="7">
@@ -200,6 +230,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="238" width="90" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedNumber:" destination="BYZ-38-t0r" eventType="touchDown" id="M2D-Gb-t8I"/>
                                 </connections>
@@ -207,6 +240,8 @@
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s4B-sL-yOV">
                                 <rect key="frame" x="99" y="114" width="56" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="8">
@@ -217,6 +252,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="238" width="90" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedNumber:" destination="BYZ-38-t0r" eventType="touchDown" id="8o1-QZ-FpF"/>
                                 </connections>
@@ -224,6 +262,8 @@
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="slq-rT-Nkj">
                                 <rect key="frame" x="178" y="114" width="56" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="9">
@@ -234,6 +274,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="195" y="237" width="90" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedNumber:" destination="BYZ-38-t0r" eventType="touchDown" id="A1l-Gn-KI4"/>
                                 </connections>
@@ -241,6 +284,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bGn-t5-mvU">
                                 <rect key="frame" x="255" y="114" width="56" height="56"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="-">
@@ -251,6 +296,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="290" y="237" width="90" height="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="tappedMinus:" destination="BYZ-38-t0r" eventType="touchDown" id="Bd1-4o-oJW"/>
                                 </connections>
@@ -261,27 +309,87 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="54"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="28" width="349" height="78"/>
+                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Barra de estado:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJp-Gl-L0N">
-                                <rect key="frame" x="20" y="383" width="382" height="52"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NG3-Bc-2EU">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <animations/>
-                                <color key="tintColor" red="0.88075370855148338" green="0.88075370855148338" blue="0.88075370855148338" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.75605610723780547" green="0.76053166119198401" blue="1" alpha="0.33264073581560283" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="556" width="380" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="641" width="400" height="30"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffl-Ev-q3f">
+                                <rect key="frame" x="178" y="259" width="56" height="56"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.79541583814473271" green="0.85589792271145637" blue="0.99607843159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.98431372640000003" green="0.0" blue="0.019607843829999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="3">
+                                            <attributes>
+                                                <font key="NSFont" size="28" name=".AppleSystemUIFont"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="195" y="440" width="90" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="BYZ-38-t0r" eventType="touchDown" id="edc-yg-1ZX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxV-FH-CYj">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="101" width="360" height="118"/>
+                                </variation>
                             </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.85848335600000003" green="0.090681078250000005" blue="0.1348680639" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="NG3-Bc-2EU"/>
+                                <exclude reference="uxV-FH-CYj"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="NG3-Bc-2EU"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="uxV-FH-CYj"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="600" height="600"/>
                     <connections>
                         <outlet property="label" destination="ahh-01-tJM" id="2bV-mK-KfC"/>
-                        <outlet property="loglabel" destination="XJp-Gl-L0N" id="M7m-gV-ysm"/>
+                        <outlet property="lblconsola" destination="uxV-FH-CYj" id="Wgj-LN-cxM"/>
+                        <outlet property="loglabel" destination="NG3-Bc-2EU" id="QDE-cx-Su7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="565" y="490"/>
+            <point key="canvasLocation" x="564" y="489.75"/>
         </scene>
     </scenes>
 </document>
